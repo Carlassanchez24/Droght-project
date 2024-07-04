@@ -1,0 +1,56 @@
+.nav{
+    top: 0;
+    left:0;
+    display: flex;
+    justify-content: space-between;
+	background: transparent;
+    color:rgb(33, 26, 26);
+    align-items:flex-start;
+    width: 100%;
+    position: relative;
+    font-size: 1.45rem;
+    margin-left: 20%;
+    
+}
+.nav-bg{
+    background-color: white;
+    color:#0a0a0a;
+}
+
+.navbarUl{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    align-content: center;
+    padding: 0 auto;
+    
+}
+.navbarLi{
+    list-style: none;
+    align-content: center;
+}
+.trackerNavbar{
+    width: 340px;
+    height: 42px;
+    border:none;
+    background-color:#4a8db1;
+    border-radius: 20px;
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 20%;
+    
+}
+.burgerNav{
+    display:none;
+}
+
+@media screen and (width <= 991px) {
+    .burgerNav{
+        display:flex;
+        right: 5px;
+    }
+    .rightNavbar {
+    display: none;
+    }
+  }
