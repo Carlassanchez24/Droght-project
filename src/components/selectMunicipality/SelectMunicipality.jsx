@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+/* import { useState, useEffect } from 'react';
 import DroughtData from './DroughtData';
 import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from "@radix-ui/react-select";
 
@@ -52,15 +52,17 @@ const SelectMunicipality = () => {
     setMunicipio(value);
   };
 
+ 
   return (
-    <div>
+    <div className="flex flex-row items-center justify-center space-x-10 mt-8">
       <Select onValueChange={handleMunicipioChange}>
-        <SelectTrigger className="w-[180px]">
-          <SelectValue>{municipio}</SelectValue>
+        <SelectTrigger className="w-[200px] bg-blue-500 text-white font-bold py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-blue-300">
+          <SelectValue placeholder="Select Municipality">{municipio}</SelectValue>
         </SelectTrigger>
-        <SelectContent>
+        <SelectContent className="mt-2 bg-white shadow-lg rounded border border-gray-300 max-h-60 overflow-y-auto">
+          <SelectItem value="Select">Select</SelectItem>
           {municipios.map((m) => (
-            <SelectItem key={m} value={m}>
+            <SelectItem key={m} value={m} className="px-4 py-2 hover:bg-blue-100 cursor-pointer">
               {m}
             </SelectItem>
           ))}
@@ -70,13 +72,15 @@ const SelectMunicipality = () => {
     </div>
   );
 };
-
 export default SelectMunicipality;
 
 
  
 
-/* 
+ */
+
+
+
 import { useState, useEffect } from 'react';
 import DroughtData from './DroughtData';
 import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from "@radix-ui/react-select";
@@ -132,14 +136,15 @@ const SelectMunicipality = () => {
   };
 
   return (
-    <div>
-      <Select onValueChange={handleMunicipioChange} className="relative">
-        <SelectTrigger className="bg-gray-200 text-gray-700 py-2 px-4 rounded-md cursor-pointer">
-          <SelectValue className="">{municipio}</SelectValue>
+    <div className="flex flex-row items-center justify-center space-x-10 mt-8">
+      <Select onValueChange={handleMunicipioChange}>
+        <SelectTrigger className="w-[200px] bg-blue-500 text-white font-bold py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-blue-300">
+          <SelectValue placeholder="Select Municipality">{municipio}</SelectValue>
         </SelectTrigger>
-        <SelectContent className="absolute mt-1 w-full bg-white shadow-lg rounded-md z-10">
+        <SelectContent className="mt-2 bg-white shadow-lg rounded border border-gray-300 max-h-60 overflow-y scroll-auto	">
+          <SelectItem className='overflow-y max-h-20 scroll-auto' value="Select">Select</SelectItem>
           {municipios.map((m) => (
-            <SelectItem key={m} value={m} className="py-2 px-4 cursor-pointer hover:bg-gray-100">
+            <SelectItem key={m} value={m} className="px-4 py-2 hover:bg-blue-100 cursor-pointer">
               {m}
             </SelectItem>
           ))}
@@ -151,4 +156,5 @@ const SelectMunicipality = () => {
 };
 
 export default SelectMunicipality;
- */
+
+ 
