@@ -1,12 +1,11 @@
-import Layout1 from "@/layout/Layout1";
-import Layout2 from "@/layout/Layout2";
-import Home from "@/pages/Home";
-import Tracker1 from "@/pages/Tracker1";
-import Tracker2 from "@/pages/Tracker2";
-import Tracker3 from "@/pages/Tracker3";
-import Tracker4 from "@/pages/Tracker4";
+import Layout1 from "../layout/Layout1";
+import Layout2 from "../layout/Layout2";
+import Home from "../pages/Home"
+import Tracker1 from "../pages/Tracker1";
+import Tracker2 from "../pages/Tracker2";
+import Tracker3 from "../pages/Tracker3";
+import Tracker4 from "../pages/Tracker4";
 import { createBrowserRouter } from "react-router-dom";
-
 
 
 const router = createBrowserRouter ([
@@ -39,8 +38,7 @@ const router = createBrowserRouter ([
             {
                 path:"/tracker/4",
                 element: <Tracker4 />
-            },
-            
+            }
         ]
     }
 ])
