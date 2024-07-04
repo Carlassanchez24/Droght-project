@@ -5,6 +5,7 @@
 ## ⚡️ Índice ⚡️
 
 - [Descripción](#descripción)
+- [Organización](#organización)
 - [Tech Stack](#Tech-Stack)
 - [Autores](#Autores)
 
