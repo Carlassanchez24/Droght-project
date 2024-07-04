@@ -1,0 +1,40 @@
+.HomeImag{    
+    position: relative;
+    width: 100%;
+}
+.HomeImag img{
+    width: 1700px;
+    height: 500PX;
+    margin-left: -1%;
+    position: relative;
+    background-color: aqua;
+
+}
+.title-s{
+    text-align: center;
+    font-style: oblique;
+    margin: 2%;
+    font-size: 2rem;
+}
+.new0ne{
+    position: relative;
+    display: contents;
+    font-size: 1.25rem;
+    
+    
+}
+.new0ne img{
+    width: 350px;
+    height: 350px;
+    justify-content: center;
+    margin-left: 38%;
+    
+
+}
+.paragraph{
+    text-align:justify;
+    width: 900px;
+    margin: 20%;
+    font-size: 1.35rem;
+    margin-top: 10%;
+}

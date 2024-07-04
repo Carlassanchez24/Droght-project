@@ -7,7 +7,7 @@ const DroughtData = ({ municipio, data }) => {
     if (filteredData.length === 0) return <p>No found data for: {municipio}</p>;
   
     return (
-      <div>
+      <div className="p-10">
         <h1>Drouht data for {municipio}</h1>
         {filteredData.map((item, index) => (
           <div key={index}>
