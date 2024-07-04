@@ -74,3 +74,14 @@
       @apply bg-background text-foreground;
     }
   }
+
+
+  .custom-select-content {
+    max-height: 200px; 
+    overflow-y: auto;
+    background-color: #ffffff;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
