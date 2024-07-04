@@ -3,8 +3,6 @@ import Layout2 from "../layout/Layout2";
 import Home from "../pages/Home"
 import Tracker1 from "../pages/Tracker1";
 import Tracker2 from "../pages/Tracker2";
-import Tracker3 from "../pages/Tracker3";
-import Tracker4 from "../pages/Tracker4";
 import { createBrowserRouter } from "react-router-dom";
 
 
@@ -31,14 +29,7 @@ const router = createBrowserRouter ([
                 path:"/page/2",
                 element: <Tracker2 />
             },
-            {
-                path:"/page/3",
-                element: <Tracker3 />
-            },
-            {
-                path:"/page/4",
-                element: <Tracker4 />
-            }
+           
         ]
     }
 ])
