@@ -1,5 +1,5 @@
 
-![Logo]([https://i.ibb.co/J5YWrJD/Drought-Project-1.gif)
+![Logo](https://i.ibb.co/J5YWrJD/Drought-Project-1.gif)
 
 
 ## ⚡️ Índice ⚡️
