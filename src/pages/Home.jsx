@@ -1,19 +1,18 @@
-import NavBar from "../components/navbar/Navbar"
-import Footer from "../components/footer/Footer"
-import MainHomeTop from "../components/mainHome/MainHomeTop"
-import MainBotton from "../components/mainBotton/MainBotton"
+import KeyFeatures from "../components/home-components/KeyFeatures/keyFeatures"
+import HowTo from "../components/home-components/HowTo/HowTo"
+import GetStarted from "../components/home-components/GetStarted/GetStarted"
+import HomeHero from "../components/home-components/HomeHero/HomeHero"
+
+
  const Home = () => {
     return (
       <>
-      
-      <NavBar></NavBar>
-      <MainHomeTop></MainHomeTop>
-      <MainBotton></MainBotton>
-      <Footer></Footer>
+        <HomeHero />
+        <KeyFeatures></KeyFeatures>
+        <HowTo></HowTo>
+        <GetStarted></GetStarted>
       </>
       )
   }
   
-  export default Home 
-
-
+  export default Home

@@ -1,18 +1,20 @@
-import React from 'react'
 import './mainBotton.css'
+import img1 from "../../../assets/photo-1.png";
+import img2 from "../../../assets/rhinoceros-.png";
+import img3 from "../../../assets/photo-2.png";
 
 const MainBotton = () => {
     return (
         <>
          <section className='container-news'>
             <div>
-            <img src={'./src/assets//photo-1.png'} />
+            <img src={img1} />
             </div>
             <div>
-            <img src={'./src/assets/rhinoceros-.png'} />
+            <img src={img2} />
             </div>
             <div>
-            <img src={'./src/assets/photo-2.png'} />
+            <img src={img3} />
             </div>
         </section>
         </>

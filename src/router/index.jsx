@@ -1,5 +1,6 @@
 import Layout1 from "../layout/Layout1";
 import Layout2 from "../layout/Layout2";
+import About from "../pages/About";
 import Home from "../pages/Home"
 import Tracker1 from "../pages/Tracker1";
 import Tracker2 from "../pages/Tracker2";
@@ -21,6 +22,10 @@ const router = createBrowserRouter ([
         path:"/page",
         element: <Layout2 />,
         children:[
+            {
+                path:"/page/about",
+                element: <About />
+            },
             {
                 path:"/page",
                 element: <Tracker1 />
