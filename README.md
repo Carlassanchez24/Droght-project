@@ -1,5 +1,5 @@
 
-![Logo](https://i.ibb.co/n3d4jdS/Drought-Project.gif)
+![Logo]([https://i.ibb.co/J5YWrJD/Drought-Project-1.gif)
 
 
 ## ⚡️ Índice ⚡️
@@ -12,6 +12,11 @@
 ## Descripción
 
 **Drought Project** es una aplicación web desarrollada en Javascript para visualizar el nivel de sequía en diferentes municipios. La aplicación permite a los usuarios aplicar filtros para ver datos específicos y presenta la información en un mapa interactivo, mostrando el nivel de alerta de sequía para cada municipio.
+
+## Organización
+
+La organización y división de tareas para la realización del proyecto está realizada en la [Tabla Trello](https://trello.com/b/U0qzGZA2/hackathon) del proyecto.
+
 ## Tech Stack
 
 **FrontEnd:** JavaScript + REACT, ShadCN, Tailwind.
@@ -31,13 +36,6 @@
 - Olena Andrushchenko / [@OlenaAndrushchenko](https://github.com/OlenaAndrushchenko) / FrontEnd /
 - Matheus Ribeiro / [@limematheuz](https://github.com/limematheuz) / BackEnd /
 - José Manuel Polvillo / [@JMPolvillo](https://github.com/JMPolvillo) / BackEnd /
-
-
-## Acknowledgements
-
- - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
 
 
 ## Running Tests
@@ -74,13 +72,6 @@ Start the server
 ```bash
   npm run start
 ```
-
-
-## Roadmap
-
-- Additional browser support
-
-- Add more integrations
 
 
 ## Installation
