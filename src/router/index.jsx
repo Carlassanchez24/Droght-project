@@ -20,23 +20,23 @@ const router = createBrowserRouter ([
         ]
     },
     {
-        path:"/tracker",
+        path:"/page",
         element: <Layout2 />,
         children:[
             {
-                path:"/tracker",
+                path:"/page",
                 element: <Tracker1 />
             },
             {
-                path:"/tracker/2/:page?",
+                path:"/page/2",
                 element: <Tracker2 />
             },
             {
-                path:"/tracker/3",
+                path:"/page/3",
                 element: <Tracker3 />
             },
             {
-                path:"/tracker/4",
+                path:"/page/4",
                 element: <Tracker4 />
             }
         ]
