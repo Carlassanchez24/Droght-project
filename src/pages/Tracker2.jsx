@@ -1,8 +1,14 @@
+import SelectMunicipality from "../components/selectMunicipality/SelectMunicipality"
 
-const Tracker2 = () => {
-  return (
-    <div>Tracker2</div>
+const Tracker1 = () => {
+ return (
+    <div >
+      <header >
+        <h1 className="bg-gray-100">Drougt Data</h1>
+        <SelectMunicipality />
+      </header>
+    </div>
   )
 }
 
-export default Tracker2
+export default Tracker1
