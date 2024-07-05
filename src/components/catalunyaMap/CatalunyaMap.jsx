@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { MapContainer, TileLayer, GeoJSON } from "react-leaflet";
-import { catalunyaGeoJson } from "../../data/catalunyaGeoJson.js";
+// import { catalunyaGeoJson } from "../../data/catalunyaGeoJson.js";
 import { droughtTypesMap } from "../../data/droughtTypesMap.js";
 import "leaflet/dist/leaflet.css";
 
@@ -10,7 +10,7 @@ const CatalunyaMap = ({ globalData }) => {
 
   useEffect(() => {
     const fetchData = async () => {
-
+      const { default: catalunyaGeoJson } = await import('../../data/catalunyaGeoJson.js'); // add this line
       const municipalityMap = globalData.reduce((elementMap, municipality) => {
         elementMap[municipality.codi_municipi] = {
           // codi_municipi es la llave del ArrayMap
